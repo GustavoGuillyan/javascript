@@ -30,16 +30,16 @@
         var n1 = Number.parseInt(window.prompt("Informe um numero: "));//number.paseint para transformar string em numero inteiro
         var n2 = Number.parseInt(window.prompt("Informe outro numero: "));//number.paseint para transformar string em numero inteiro
         var s = n1 + n2;
-        window.alert("A soma dos dois numeros é =" + s);
+        window.alert(`A soma dos entre ${n1} e ${n2} é igual a ${s}`);//${} é um template de string
         var n1 = Number.parseFloat(window.prompt("Informe um numero: "));//number.paseint para transformar string em numero real
         var n2 = Number.parseFloat(window.prompt("Informe outro numero: "));//number.paseint para transformar string em numero real
         var s = n1 + n2;
-        window.alert("A soma dos dois numeros é =" + s);
+        window.alert(`A soma dos entre ${n1} e ${n2} é igual a ${s}`);//${} é um template de string
         var n1 = Number(window.prompt("Informe um numero: "));//number para transformar string em numero inteiro ou real dependendo do tipo de dado recebido
         var n2 = Number(window.prompt("Informe outro numero: "));//number para transformar string em numero inteiro ou real dependendo do tipo de dado recebido
         var s = n1 + n2;
-        
-        window.alert("A soma dos dois numeros é =" + s);
+        String(s)//converte numero em string
+        window.alert(`A soma dos entre ${n1} e ${n2} é igual a ${s}`);//${} é um template de string
     </script>
 </body>
 </html>
