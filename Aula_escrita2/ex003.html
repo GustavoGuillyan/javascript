@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: #afeeee;
+            color: #ffffff;
+            font: normal 15pt arial;
+            
+        }
+        h1{
+            color: #5cdd5c;
+        }
+        p{
+            color: #5cdd5c;
+        }
+    </style>
+</body>
+<body> 
+    <h1>Olá mundo!</h1>
+    <p>Vamos continuar a fazer os exercicios</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt("Informe um numero: "));//number.paseint para transformar string em numero inteiro
+        var n2 = Number.parseInt(window.prompt("Informe outro numero: "));//number.paseint para transformar string em numero inteiro
+        var s = n1 + n2;
+        window.alert("A soma dos dois numeros é =" + s);
+        var n1 = Number.parseFloat(window.prompt("Informe um numero: "));//number.paseint para transformar string em numero real
+        var n2 = Number.parseFloat(window.prompt("Informe outro numero: "));//number.paseint para transformar string em numero real
+        var s = n1 + n2;
+        window.alert("A soma dos dois numeros é =" + s);
+        var n1 = Number(window.prompt("Informe um numero: "));//number para transformar string em numero inteiro ou real dependendo do tipo de dado recebido
+        var n2 = Number(window.prompt("Informe outro numero: "));//number para transformar string em numero inteiro ou real dependendo do tipo de dado recebido
+        var s = n1 + n2;
+        
+        window.alert("A soma dos dois numeros é =" + s);
+    </script>
+</body>
+</html>
